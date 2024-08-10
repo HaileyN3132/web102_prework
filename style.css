@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    
 }
 
 #tentacles {
@@ -78,4 +79,18 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+.sorted-button{
+    transition: background-color 1s;
+}
+
+.sorted-button:hover{
+    background-color: lightblue;
+    box-shadow: 0 0 30px rgb(173, 216, 230);
+}
+
+.sorted-button:focus{
+    background-color:  rgb(168, 176, 189);
 }
