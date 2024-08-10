@@ -6,6 +6,10 @@ body {
     
 }
 
+a {
+    color: black;
+}
+
 #tentacles {
     width: 50px;
 }
@@ -18,6 +22,29 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+}
+
+.navigate-bar{
+    position: 1;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+
+.section{
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+
+.section:hover{
+    text-decoration: underline;
+    background-color: rgb(187, 232, 247);
 }
 
 .stats-container {
