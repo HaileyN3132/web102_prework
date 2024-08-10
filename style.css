@@ -8,6 +8,8 @@ body {
 
 a {
     color: black;
+    text-decoration: none;
+
 }
 
 #tentacles {
@@ -39,12 +41,14 @@ a {
     text-align: center;
     cursor: pointer;
     transition: background-color 0.15s;
+    
 }
 
 
 .section:hover{
     text-decoration: underline;
     background-color: rgb(187, 232, 247);
+    font-weight: bold;
 }
 
 .stats-container {
